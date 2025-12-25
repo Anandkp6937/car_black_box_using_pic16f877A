@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\BLACK_BOX_PRO.X.production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>5190</used>
+      <free>3002</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>368</length>
+      <used>176</used>
+      <free>192</free>
+    </memory>
+  </executable>
+</project>
