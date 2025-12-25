@@ -1,4 +1,4 @@
-<h2>Embedded Vehicle Event Data Logger</h2>
+<h2>Embedded Vehicle Event Data Logger Using PIC16F877A (Simulated in PICSimLab)</h2>
 
 <p>This project is an embedded vehicle event logging system designed to monitor and record important vehicle parameters in real time. It displays the current gear status, event state, and vehicle speed on a character LCD. Vehicle speed is obtained using a potentiometer connected to the ADC and mapped to a usable speed range.</p>
 <p>Key events such as gear changes, engine-related actions, and significant speed variations are logged into an external EEPROM along with the corresponding time obtained from an RTC. Speed values are logged only when a noticeable change occurs, which helps reduce unnecessary EEPROM writes and improves memory efficiency.</p>
