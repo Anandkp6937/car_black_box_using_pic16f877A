@@ -1,0 +1,5 @@
+<h2>Embedded Vehicle Event Data Logger</h2>
+
+<p>This project is an embedded vehicle event logging system designed to monitor and record important vehicle parameters in real time. It displays the current gear status, event state, and vehicle speed on a character LCD. Vehicle speed is obtained using a potentiometer connected to the ADC and mapped to a usable speed range.</p>
+<p>Key events such as gear changes, engine-related actions, and significant speed variations are logged into an external EEPROM along with the corresponding time obtained from an RTC. Speed values are logged only when a noticeable change occurs, which helps reduce unnecessary EEPROM writes and improves memory efficiency.</p>
+<p>The system provides a menu-driven interface protected by a password, allowing the user to view logs, clear stored data, change the password, and set the system time. This design ensures reliable data storage, controlled logging, and user-friendly operation, making it suitable for applications such as automotive monitoring and event data recording.</p>
